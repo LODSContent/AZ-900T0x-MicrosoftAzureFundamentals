@@ -15,6 +15,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 3. Configure the key vault (replace **xxxx** in the name of the key vault with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
+    **Basics** tab:
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use default supplied** |
@@ -24,13 +25,19 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
     | Pricing tier | **Standard** |
     
     **Note** replace **xxxx** to find a unique name.
-4. Click **Review + create**, and then click **Create**. 
 
-5. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it. 
+    **Access Configuration** tab:
+    | Setting | Value | 
+    | --- | --- |
+    | Permission model | **Vault access policy** |
 
-6. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the REST APIs will need this URI.
+5. Click **Review + create**, and then click **Create**. 
 
-7. Take a moment to browse through some of the other key vault options. Under **Settings** review **Keys**, **Secrets**, **Certificates**, **Access Policies**, **Firewalls and virtual networks**.
+6. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it. 
+
+7. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the REST APIs will need this URI.
+
+8. Take a moment to browse through some of the other key vault options. Under **Settings** review **Keys**, **Secrets**, **Certificates**, **Access Policies**, **Firewalls and virtual networks**.
 
     **Note**: Your Azure account is the only one authorized to perform operations on this new vault. You can modify this if you wish in the **Settings** and then the **Access policies** section.
 
