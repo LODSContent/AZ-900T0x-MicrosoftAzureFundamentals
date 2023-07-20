@@ -15,6 +15,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 3. Configure the key vault (replace **xxxx** in the name of the key vault with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
+    **Basics** tab:
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use default supplied** |
@@ -24,6 +25,12 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
     | Pricing tier | **Standard** |
     
     **Note** replace **xxxx** to find a unique name.
+
+    **Access Configuration** tab:
+    | Setting | Value | 
+    | --- | --- |
+    | Permission model | **Vault access policy** |
+
 4. Click **Review + create**, and then click **Create**. 
 
 5. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it. 
