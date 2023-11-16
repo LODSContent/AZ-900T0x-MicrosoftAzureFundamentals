@@ -51,7 +51,8 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
-    -PublicIpAddressName "myPublicIpPS"
+    -PublicIpAddressName "myPublicIpPS" `
+    -SecurityType "Standard"
     ```
     
 4. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines.azureadmin
