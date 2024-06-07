@@ -24,20 +24,23 @@ In this task, you will create an Azure App Service Web App.
     | Subscription | **Use default supplied** |
     | Resource Group | **Create new resource group**|
     | Name | **myDockerWebAppxxxx** |
-    | Publish | **Docker Container** |
+    | Publish | **Container** |
     | Operating System | **Linux** |
     | Region | **East US** |
     
     **Note:** Remember to change the **xxxx** so that your Web App name is unique.
+   
+5. Click **Next > Database**.
 
-4. Click **Next > Docker** and configure the container information.  
+6. Click **Next > Container** and configure the container information.  
 
     | Setting | Value |
     | -- | -- |
-    | Options | **Single container** |
     | Image Source | **Docker Hub** |
+    | Options | **Single container** |
     | Access Type | **Public** |
-    | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
+    | Registry server URL | **https://mcr.microsoft.com** |
+    | Image and tag | **azuredocs/aci-helloworld** |
     
  **Note:** The startup command is optional and not needed in this exercise.
 
