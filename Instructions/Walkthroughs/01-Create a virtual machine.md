@@ -32,7 +32,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 5. Switch to the Networking tab to ensure **HTTP (80) and RDP (3389)** are selected in section **Select inbound ports**.
 
-6. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
+6. Switch to the Monitoring tab and select the following setting:
 
     | Settings | Values |
     | -- | -- |
