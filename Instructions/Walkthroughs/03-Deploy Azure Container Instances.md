@@ -40,11 +40,14 @@ In this task, we will create a new container instance for the web application.
 	
 	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (replacing the xxxxx) and re-deploy. 
 
-5. Click **Review and Create** to start the automatic validation process.
 
-6. Click **Create** to create the container instance. 
+5. On the Monitoring tab, uncheck the **Enable container instance logs** option.
 
-7. Monitor the deployment page and the **Notifications** page. 
+6. Click **Review and Create** to start the automatic validation process.
+
+7. Click **Create** to create the container instance. 
+
+8. Monitor the deployment page and the **Notifications** page. 
 
 
 # Task 2: Verify deployment of the container instance
