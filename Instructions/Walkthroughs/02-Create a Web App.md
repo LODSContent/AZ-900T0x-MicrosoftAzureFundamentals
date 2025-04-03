@@ -15,7 +15,7 @@ In this task, you will create an Azure App Service Web App.
 
 1. Sign-in to the [Azure portal](http://portal.azure.com/). 
 
-2. From the **All services** blade, search for and select **App Services**, and click **+ Add, + Create, + New**
+2. From the **All services** blade, search for and select **App Services**, and click **+ Create** then **+ Web App**
 
 3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **xxxx** in the name of the web app with letters and digits such that the name is globally unique). Leave the defaults for everything else, including the App Service Plan. 
 
@@ -36,8 +36,7 @@ In this task, you will create an Azure App Service Web App.
 
     | Setting | Value |
     | -- | -- |
-    | Image Source | **Docker Hub** |
-    | Options | **Single container** |
+    | Image Source | **Other container registries** |
     | Access Type | **Public** |
     | Registry server URL | **https://mcr.microsoft.com** |
     | Image and tag | **azuredocs/aci-helloworld** |
@@ -54,7 +53,7 @@ In this task, we will test the web app.
 
 2. From **Notifications** click **Go to resource**. 
 
-3. On the **Overview** blade, locate the **URL**. Copy the URL to the clipboard.
+3. On the **Overview** blade, locate the **Default Domain**. Copy the URL to the clipboard.
 
     ![Screenshot of the web app properties blade. The URL is highlighted.](../images/0801.png)
 
