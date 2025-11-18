@@ -10,7 +10,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 **Note**: Take time during this walk-through to click and read the Informational icons. 
 
 # Task 1: Create the virtual machine 
-1. Sign-in to the Azure portal: **https://portal.azure.com**
+1. Sign-in to the Azure portal: +++https://portal.azure.com+++
 
 3. From the **All services** blade in the Portal Menu, search for and select **Virtual machines**, and then click **+Create** and choose **+Azure Virtual machine** from the drop down.
 
@@ -23,7 +23,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
     | Virtual machine name | **myVM** |
     | Region | **(US) East US**|
     | Availability options | No infrastructure redundancy options required|
-    | Image | **Windows Server 2019 Datacenter - Gen2**|
+    | Image | Select **see all images**, search for +++Windows Server 2019 Datacenter - Gen2+++ |
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password (type in carefully!) | **Pa$$w0rd1234**|
@@ -52,7 +52,7 @@ In this task, we will connect to our new virtual machine using RDP (Remote Deskt
 
     **Note**: You could also use the **Go to resource** link on the deployment page 
 
-2. On the virtual machine **Overview** blade, click **Connect** button and choose **RDP** from the drop down.
+2. On the virtual machine **Overview** blade, click **Connect** button and choose **Connect** from the drop down.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/0101.png)
 
@@ -102,3 +102,4 @@ In this task, install the Web Server role on the server on the Virtual Machine y
 
 
 **Note**: To avoid additional costs, you can optionally remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see verify that the deletion completed successfully. 
+
